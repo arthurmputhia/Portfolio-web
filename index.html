@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header>
+        <nav>
+            <div class="logo">Arthur Mputhia</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        
+        <!-- 1. Home Section -->
+        <section id="home">
+            <img src="profile.JPG" alt="Profile Picture" class="profile-img">
+            <div class="home-text">
+                <h1>Hello, I'm Arthur Mputhia</h1>
+                <p>Welcome to my personal portfolio! I am an aspiring cybersecurity specialist passionate about     threat detection, log analysis, and network defense.</p>
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Here is a brief overview of my educational background and what I enjoy doing in my free time.</p>
+
+            <h3>Education</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree / Certificate</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.S. in Information Security and Forensics</td>
+                        <td>KCA University</td>
+                        <td>2026 – 2030</td>
+                    </tr>
+                  
+                </tbody>
+            </table>
+
+            <h3>Personal Interests</h3>
+            <ul>
+                <li>Taking apart and rebuilding electrical devices</li>
+                <li>Exploring privacy-focused tools and encrypted networks</li>
+                <li>Engaging in mentally stimulating games like Chess and Sudoku</li>
+                <li>Hiking and outdoor activities</li>
+            </ul>
+        </section>
+
+        
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <p>Core security domains and tools I specialize in:</p>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>1. Vulnerability Assessment</h3>
+                    <p>Conducting security audits, identifying software/hardware flaws, and running pen tests .</p>
+                </div>
+                <div class="card">
+                    <h3>2. Network Security</h3>
+                    <p>Securing network architectures, configuring firewalls, setting up secure VPNs, and monitoring traffic through IDS/IPS.</p>
+                </div>
+                </div>
+        </section>
+
+        
+    <section id="projects">
+            <h2>Projects</h2>
+            <ol>
+                <li><strong>Personal Portfolio Website</strong> — A responsive, semantic HTML5/CSS3 website showcasing projects and technical skills.</li>
+                <li><strong>Microfinance & Loan Company Portal</strong> — A responsive web platform built for financial services and user loan applications.</li>
+                <li><strong>Service Authentication Engine</strong> — A security system that verifies legitimate services and issues cryptographically signed trust badges.</li>
+            </ol>
+
+            <div class="grid-container">
+                <div class="card">
+                    <h3>Project 1: Personal Portfolio Website</h3>
+                    <p>Designed and built a clean, single-page responsive portfolio showcasing educational background, cybersecurity skills, and featured projects.</p>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Project 2: Loan Company Web Portal</h3>
+                    <p>Created a modern frontend platform for a financial services company featuring interactive loan application forms and interest rate estimators.</p>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Project 3: Service Authentication Engine</h3>
+                    <p>Developed a security verification platform that audits online services for compliance and issues dynamic, tamper-proof verification badges to authentic vendors.</p>
+                    <a href="#" class="project-link">View Project &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+               <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out directly via email at <a href="mailto:arthurmputhia@gmail.com">arthurmputhia@gmail.com</a> or use the form below:</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2026 Arthur Mputhia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
